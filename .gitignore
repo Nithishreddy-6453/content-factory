@@ -1,0 +1,43 @@
+@"
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local runtime state
+*.db
+*.sqlite
+*.sqlite3
+
+# Generated output
+runs/
+logs/
+
+# Local/large model files
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+*.onnx
+*.bin
+
+# Local recovery/archive
+archive/
+recovery_staging/
+recovery_transcripts/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Temporary validation artifacts
+final_production_validation.py
+"@ | Set-Content ".gitignore"

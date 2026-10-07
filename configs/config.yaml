@@ -1,0 +1,19 @@
+system:
+  run_dir: "runs"
+  log_dir: "logs"
+  asset_library_dir: "asset_library"
+  db_path: "core/state.db"
+
+llm_routing:
+  script_generation_model: "qwen2.5-coder:14b"
+  research_model: "qwen2.5-coder:14b"
+  viral_analysis_model: "qwen2.5-coder:14b"
+  scene_planning_model: "qwen2.5-coder:14b"
+
+audio:
+  primary_provider: "kokoro"
+  fallback_provider: "edge-tts"
+
+render:
+  resolution: "1080x1920"
+  max_concurrent_gpu_tasks: 1

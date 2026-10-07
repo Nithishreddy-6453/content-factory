@@ -1,0 +1,8 @@
+pyyaml
+edge-tts
+faster-whisper
+requests
+feedparser
+moviepy
+sqlalchemy
+pydub

@@ -1,0 +1,7 @@
+{
+  "name": "football",
+  "feeds": [
+    "https://feeds.bbci.co.uk/sport/football/rss.xml",
+    "https://www.theguardian.com/football/rss"
+  ]
+}

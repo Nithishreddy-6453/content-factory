@@ -1,0 +1,9 @@
+{
+  "resolution": "1080x1920",
+  "fps": 30,
+  "seconds_per_scene": 5,
+  "transition": "crossfade",
+  "subtitle_style": "kinetic",
+  "zoom_effect": true,
+  "pan_effect": true
+}

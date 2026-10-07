@@ -1,0 +1,5 @@
+{
+    "max_concurrent_gpu_tasks": 1,
+    "retry_attempts": 3,
+    "asset_library_enabled": true
+}
